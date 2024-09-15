@@ -1,0 +1,64 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "My New Hugo Site",
+  "home_page_url": "http://localhost:1313/",
+  "feed_url": "http://localhost:1313/feed.json",
+  "description": "A minimal hugo theme focus on content",
+  "favicon": "http://localhost:1313//assets/favicon.ico",
+  "expired": false,
+  "author": {
+    "name": "Calvin Tran",
+    "url": "http://localhost:1313/"
+  },
+  "items": [
+    
+    
+
+    
+    {
+      "id": "9fddc885dc73b0e5a4d06544d9297c775b7eb78a",
+      "title": "post 3",
+      "summary": "",
+      "content_text": "sf\n",
+      "content_html": "\u003cp\u003esf\u003c/p\u003e\n",
+      "url": "http://localhost:1313/posts/2024-09-15-post-3/",
+      "date_published": "15096-15-09T915:1515:00+00:00",
+      "date_modified": "15096-15-09T915:1515:00+00:00",
+      "author": {
+        "name": "Calvin Tran",
+        "url": "http://localhost:1313/"
+      }
+    },
+    
+    {
+      "id": "3dbe7ff8b8231738eaf789c9cfbcffe4463d1cf1",
+      "title": "Emoji Support",
+      "summary": "Guide to emoji usage in Hugo",
+      "content_text": "Suspendisse et viverra erat. Suspendisse congue pretium enim non feugiat. Maecenas vitae risus quis arcu consectetur iaculis a sollicitudin lacus. Aenean hendrerit dolor in congue ullamcorper. Fusce turpis ipsum, hendrerit ac purus lobortis, consequat hendrerit felis. Nulla id pretium eros. Ut vitae diam ex. Sed finibus volutpat elit, eget commodo nunc fringilla id. Aliquam eu congue enim, in egestas nisi. Suspendisse congue nibh ipsum, id rhoncus lectus congue vel.\nDonec eget sagittis ipsum. Donec condimentum sed metus placerat varius. Nunc ut est vel purus consectetur varius. In luctus, libero et accumsan sagittis, diam lacus faucibus arcu, eu mattis sapien nunc quis enim. Maecenas a laoreet leo, vitae iaculis risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec feugiat orci id enim commodo egestas. Nulla vulputate quis sem id feugiat. Maecenas vel augue tempus, lacinia enim quis, vehicula enim.\nDonec in leo at erat aliquet sagittis. Donec auctor turpis vel volutpat luctus. Donec non leo ut felis pulvinar laoreet. Cras in sapien suscipit, semper ipsum a, aliquet justo. Nam viverra porttitor nisi, a porta magna auctor vel. Nullam quis turpis non ex feugiat blandit vel a ligula. Maecenas at erat est. Donec placerat urna eget augue laoreet, nec molestie nisi condimentum. Ut ultricies iaculis dolor, ut posuere felis laoreet sit amet.\n",
+      "content_html": "\u003cp\u003eSuspendisse et viverra erat. Suspendisse congue pretium enim non feugiat. Maecenas vitae risus quis arcu consectetur iaculis a sollicitudin lacus. Aenean hendrerit dolor in congue ullamcorper. Fusce turpis ipsum, hendrerit ac purus lobortis, consequat hendrerit felis. Nulla id pretium eros. Ut vitae diam ex. Sed finibus volutpat elit, eget commodo nunc fringilla id. Aliquam eu congue enim, in egestas nisi. Suspendisse congue nibh ipsum, id rhoncus lectus congue vel.\u003c/p\u003e\n\u003cp\u003eDonec eget sagittis ipsum. Donec condimentum sed metus placerat varius. Nunc ut est vel purus consectetur varius. In luctus, libero et accumsan sagittis, diam lacus faucibus arcu, eu mattis sapien nunc quis enim. Maecenas a laoreet leo, vitae iaculis risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec feugiat orci id enim commodo egestas. Nulla vulputate quis sem id feugiat. Maecenas vel augue tempus, lacinia enim quis, vehicula enim.\u003c/p\u003e\n\u003cp\u003eDonec in leo at erat aliquet sagittis. Donec auctor turpis vel volutpat luctus. Donec non leo ut felis pulvinar laoreet. Cras in sapien suscipit, semper ipsum a, aliquet justo. Nam viverra porttitor nisi, a porta magna auctor vel. Nullam quis turpis non ex feugiat blandit vel a ligula. Maecenas at erat est. Donec placerat urna eget augue laoreet, nec molestie nisi condimentum. Ut ultricies iaculis dolor, ut posuere felis laoreet sit amet.\u003c/p\u003e\n",
+      "url": "http://localhost:1313/posts/post-2/",
+      "date_published": "5036-05-09T30:55:00+00:00",
+      "date_modified": "5036-05-09T30:55:00+00:00",
+      "author": {
+        "name": "Calvin Tran",
+        "url": "http://localhost:1313/"
+      }
+    },
+    
+    {
+      "id": "3dbe7ff8b8231738eaf789c9cfbcffe4463d1cf1",
+      "title": "Emoji Support",
+      "summary": "Guide to emoji usage in Hugo",
+      "content_text": "Suspendisse et viverra erat. Suspendisse congue pretium enim non feugiat. Maecenas vitae risus quis arcu consectetur iaculis a sollicitudin lacus. Aenean hendrerit dolor in congue ullamcorper. Fusce turpis ipsum, hendrerit ac purus lobortis, consequat hendrerit felis. Nulla id pretium eros. Ut vitae diam ex. Sed finibus volutpat elit, eget commodo nunc fringilla id. Aliquam eu congue enim, in egestas nisi. Suspendisse congue nibh ipsum, id rhoncus lectus congue vel.\nDonec eget sagittis ipsum. Donec condimentum sed metus placerat varius. Nunc ut est vel purus consectetur varius. In luctus, libero et accumsan sagittis, diam lacus faucibus arcu, eu mattis sapien nunc quis enim. Maecenas a laoreet leo, vitae iaculis risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec feugiat orci id enim commodo egestas. Nulla vulputate quis sem id feugiat. Maecenas vel augue tempus, lacinia enim quis, vehicula enim.\nDonec in leo at erat aliquet sagittis. Donec auctor turpis vel volutpat luctus. Donec non leo ut felis pulvinar laoreet. Cras in sapien suscipit, semper ipsum a, aliquet justo. Nam viverra porttitor nisi, a porta magna auctor vel. Nullam quis turpis non ex feugiat blandit vel a ligula. Maecenas at erat est. Donec placerat urna eget augue laoreet, nec molestie nisi condimentum. Ut ultricies iaculis dolor, ut posuere felis laoreet sit amet.\n",
+      "content_html": "\u003cp\u003eSuspendisse et viverra erat. Suspendisse congue pretium enim non feugiat. Maecenas vitae risus quis arcu consectetur iaculis a sollicitudin lacus. Aenean hendrerit dolor in congue ullamcorper. Fusce turpis ipsum, hendrerit ac purus lobortis, consequat hendrerit felis. Nulla id pretium eros. Ut vitae diam ex. Sed finibus volutpat elit, eget commodo nunc fringilla id. Aliquam eu congue enim, in egestas nisi. Suspendisse congue nibh ipsum, id rhoncus lectus congue vel.\u003c/p\u003e\n\u003cp\u003eDonec eget sagittis ipsum. Donec condimentum sed metus placerat varius. Nunc ut est vel purus consectetur varius. In luctus, libero et accumsan sagittis, diam lacus faucibus arcu, eu mattis sapien nunc quis enim. Maecenas a laoreet leo, vitae iaculis risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec feugiat orci id enim commodo egestas. Nulla vulputate quis sem id feugiat. Maecenas vel augue tempus, lacinia enim quis, vehicula enim.\u003c/p\u003e\n\u003cp\u003eDonec in leo at erat aliquet sagittis. Donec auctor turpis vel volutpat luctus. Donec non leo ut felis pulvinar laoreet. Cras in sapien suscipit, semper ipsum a, aliquet justo. Nam viverra porttitor nisi, a porta magna auctor vel. Nullam quis turpis non ex feugiat blandit vel a ligula. Maecenas at erat est. Donec placerat urna eget augue laoreet, nec molestie nisi condimentum. Ut ultricies iaculis dolor, ut posuere felis laoreet sit amet.\u003c/p\u003e\n",
+      "url": "http://localhost:1313/posts/post-1/",
+      "date_published": "5036-05-09T30:55:00+00:00",
+      "date_modified": "5036-05-09T30:55:00+00:00",
+      "author": {
+        "name": "Calvin Tran",
+        "url": "http://localhost:1313/"
+      }
+    }
+    
+  ]
+}
