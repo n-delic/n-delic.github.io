@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Nahid Delic'
 theme = 'maverick'
 
 [permalinks]
@@ -28,7 +28,7 @@ theme = 'maverick'
     name = "Post"
     url = "/posts/"
     weight = -200
-   [[menu.main]]
+[[menu.main]]
    identifier = "projects"
    name = "Projects"
    url = "/projects/"
