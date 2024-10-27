@@ -7,44 +7,22 @@
     
     <language>en</language>
     <copyright>Copyright 2024, Calvin Tran</copyright>
-    <lastBuildDate>Sun, 15 Sep 2024 18:15:34 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Oct 2024 00:00:00 +0000</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
     <atom:link href="http://localhost:1313//atom.xml" rel="self" type="application/atom+xml"/>
     
     
     <item>
-      <title>post 3</title>
-      <link>http://localhost:1313/posts/2024-09-15-post-3/</link>
-      <description>&lt;p&gt;sf&lt;/p&gt;
-</description>
-      <author>Calvin Tran</author>
-      <guid>http://localhost:1313/posts/2024-09-15-post-3/</guid>
-      <pubDate>Sun, 15 Sep 2024 18:15:34 +0000</pubDate>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>http://localhost:1313/posts/post-2/</link>
-      <description>&lt;p&gt;Suspendisse et viverra erat. Suspendisse congue pretium enim non feugiat. Maecenas vitae risus quis arcu consectetur iaculis a sollicitudin lacus. Aenean hendrerit dolor in congue ullamcorper. Fusce turpis ipsum, hendrerit ac purus lobortis, consequat hendrerit felis. Nulla id pretium eros. Ut vitae diam ex. Sed finibus volutpat elit, eget commodo nunc fringilla id. Aliquam eu congue enim, in egestas nisi. Suspendisse congue nibh ipsum, id rhoncus lectus congue vel.&lt;/p&gt;
-&lt;p&gt;Donec eget sagittis ipsum. Donec condimentum sed metus placerat varius. Nunc ut est vel purus consectetur varius. In luctus, libero et accumsan sagittis, diam lacus faucibus arcu, eu mattis sapien nunc quis enim. Maecenas a laoreet leo, vitae iaculis risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec feugiat orci id enim commodo egestas. Nulla vulputate quis sem id feugiat. Maecenas vel augue tempus, lacinia enim quis, vehicula enim.&lt;/p&gt;
-&lt;p&gt;Donec in leo at erat aliquet sagittis. Donec auctor turpis vel volutpat luctus. Donec non leo ut felis pulvinar laoreet. Cras in sapien suscipit, semper ipsum a, aliquet justo. Nam viverra porttitor nisi, a porta magna auctor vel. Nullam quis turpis non ex feugiat blandit vel a ligula. Maecenas at erat est. Donec placerat urna eget augue laoreet, nec molestie nisi condimentum. Ut ultricies iaculis dolor, ut posuere felis laoreet sit amet.&lt;/p&gt;
-</description>
-      <author>Calvin Tran</author>
-      <guid>http://localhost:1313/posts/post-2/</guid>
-      <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
+      <title>Hello world</title>
       <link>http://localhost:1313/posts/post-1/</link>
-      <description>&lt;p&gt;Suspendisse et viverra erat. Suspendisse congue pretium enim non feugiat. Maecenas vitae risus quis arcu consectetur iaculis a sollicitudin lacus. Aenean hendrerit dolor in congue ullamcorper. Fusce turpis ipsum, hendrerit ac purus lobortis, consequat hendrerit felis. Nulla id pretium eros. Ut vitae diam ex. Sed finibus volutpat elit, eget commodo nunc fringilla id. Aliquam eu congue enim, in egestas nisi. Suspendisse congue nibh ipsum, id rhoncus lectus congue vel.&lt;/p&gt;
-&lt;p&gt;Donec eget sagittis ipsum. Donec condimentum sed metus placerat varius. Nunc ut est vel purus consectetur varius. In luctus, libero et accumsan sagittis, diam lacus faucibus arcu, eu mattis sapien nunc quis enim. Maecenas a laoreet leo, vitae iaculis risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec feugiat orci id enim commodo egestas. Nulla vulputate quis sem id feugiat. Maecenas vel augue tempus, lacinia enim quis, vehicula enim.&lt;/p&gt;
-&lt;p&gt;Donec in leo at erat aliquet sagittis. Donec auctor turpis vel volutpat luctus. Donec non leo ut felis pulvinar laoreet. Cras in sapien suscipit, semper ipsum a, aliquet justo. Nam viverra porttitor nisi, a porta magna auctor vel. Nullam quis turpis non ex feugiat blandit vel a ligula. Maecenas at erat est. Donec placerat urna eget augue laoreet, nec molestie nisi condimentum. Ut ultricies iaculis dolor, ut posuere felis laoreet sit amet.&lt;/p&gt;
+      <description>&lt;h2 id=&#34;hello-world-&#34;&gt;Hello world! 👋&lt;/h2&gt;
+&lt;p&gt;Hey there! Welcome to my very first blog post. I&amp;rsquo;m excited to start sharing my journey, thoughts, and experiences with you. Whether you&amp;rsquo;re here for tech tips, project updates, or just curious about what I’m up to, I hope you&amp;rsquo;ll find something interesting and useful.&lt;/p&gt;
+&lt;p&gt;Stay tuned for more to come, and thanks for stopping by!&lt;/p&gt;
 </description>
       <author>Calvin Tran</author>
       <guid>http://localhost:1313/posts/post-1/</guid>
-      <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 27 Oct 2024 00:00:00 +0000</pubDate>
     </item>
     
   </channel>

@@ -11,3 +11,5 @@ When I’m not immersed in lines of code, you’ll find me sipping coffee and wo
 When I’m not immersed in lines of code, you’ll find me sipping coffee and working on my photography and videography business. 
 
 Feel free to reach out: <hello@ndelic.com>. Let’s build something amazing together!
+
+- ❤️ Github: [n-delic](https://github.com/n-delic)

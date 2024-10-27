@@ -16,44 +16,14 @@
 
     
     {
-      "id": "9fddc885dc73b0e5a4d06544d9297c775b7eb78a",
-      "title": "post 3",
-      "summary": "",
-      "content_text": "sf\n",
-      "content_html": "\u003cp\u003esf\u003c/p\u003e\n",
-      "url": "http://localhost:1313/posts/2024-09-15-post-3/",
-      "date_published": "15096-15-09T915:1515:00+00:00",
-      "date_modified": "15096-15-09T915:1515:00+00:00",
-      "author": {
-        "name": "Calvin Tran",
-        "url": "http://localhost:1313/"
-      }
-    },
-    
-    {
-      "id": "3dbe7ff8b8231738eaf789c9cfbcffe4463d1cf1",
-      "title": "Emoji Support",
-      "summary": "Guide to emoji usage in Hugo",
-      "content_text": "Suspendisse et viverra erat. Suspendisse congue pretium enim non feugiat. Maecenas vitae risus quis arcu consectetur iaculis a sollicitudin lacus. Aenean hendrerit dolor in congue ullamcorper. Fusce turpis ipsum, hendrerit ac purus lobortis, consequat hendrerit felis. Nulla id pretium eros. Ut vitae diam ex. Sed finibus volutpat elit, eget commodo nunc fringilla id. Aliquam eu congue enim, in egestas nisi. Suspendisse congue nibh ipsum, id rhoncus lectus congue vel.\nDonec eget sagittis ipsum. Donec condimentum sed metus placerat varius. Nunc ut est vel purus consectetur varius. In luctus, libero et accumsan sagittis, diam lacus faucibus arcu, eu mattis sapien nunc quis enim. Maecenas a laoreet leo, vitae iaculis risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec feugiat orci id enim commodo egestas. Nulla vulputate quis sem id feugiat. Maecenas vel augue tempus, lacinia enim quis, vehicula enim.\nDonec in leo at erat aliquet sagittis. Donec auctor turpis vel volutpat luctus. Donec non leo ut felis pulvinar laoreet. Cras in sapien suscipit, semper ipsum a, aliquet justo. Nam viverra porttitor nisi, a porta magna auctor vel. Nullam quis turpis non ex feugiat blandit vel a ligula. Maecenas at erat est. Donec placerat urna eget augue laoreet, nec molestie nisi condimentum. Ut ultricies iaculis dolor, ut posuere felis laoreet sit amet.\n",
-      "content_html": "\u003cp\u003eSuspendisse et viverra erat. Suspendisse congue pretium enim non feugiat. Maecenas vitae risus quis arcu consectetur iaculis a sollicitudin lacus. Aenean hendrerit dolor in congue ullamcorper. Fusce turpis ipsum, hendrerit ac purus lobortis, consequat hendrerit felis. Nulla id pretium eros. Ut vitae diam ex. Sed finibus volutpat elit, eget commodo nunc fringilla id. Aliquam eu congue enim, in egestas nisi. Suspendisse congue nibh ipsum, id rhoncus lectus congue vel.\u003c/p\u003e\n\u003cp\u003eDonec eget sagittis ipsum. Donec condimentum sed metus placerat varius. Nunc ut est vel purus consectetur varius. In luctus, libero et accumsan sagittis, diam lacus faucibus arcu, eu mattis sapien nunc quis enim. Maecenas a laoreet leo, vitae iaculis risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec feugiat orci id enim commodo egestas. Nulla vulputate quis sem id feugiat. Maecenas vel augue tempus, lacinia enim quis, vehicula enim.\u003c/p\u003e\n\u003cp\u003eDonec in leo at erat aliquet sagittis. Donec auctor turpis vel volutpat luctus. Donec non leo ut felis pulvinar laoreet. Cras in sapien suscipit, semper ipsum a, aliquet justo. Nam viverra porttitor nisi, a porta magna auctor vel. Nullam quis turpis non ex feugiat blandit vel a ligula. Maecenas at erat est. Donec placerat urna eget augue laoreet, nec molestie nisi condimentum. Ut ultricies iaculis dolor, ut posuere felis laoreet sit amet.\u003c/p\u003e\n",
-      "url": "http://localhost:1313/posts/post-2/",
-      "date_published": "5036-05-09T30:55:00+00:00",
-      "date_modified": "5036-05-09T30:55:00+00:00",
-      "author": {
-        "name": "Calvin Tran",
-        "url": "http://localhost:1313/"
-      }
-    },
-    
-    {
-      "id": "3dbe7ff8b8231738eaf789c9cfbcffe4463d1cf1",
-      "title": "Emoji Support",
-      "summary": "Guide to emoji usage in Hugo",
-      "content_text": "Suspendisse et viverra erat. Suspendisse congue pretium enim non feugiat. Maecenas vitae risus quis arcu consectetur iaculis a sollicitudin lacus. Aenean hendrerit dolor in congue ullamcorper. Fusce turpis ipsum, hendrerit ac purus lobortis, consequat hendrerit felis. Nulla id pretium eros. Ut vitae diam ex. Sed finibus volutpat elit, eget commodo nunc fringilla id. Aliquam eu congue enim, in egestas nisi. Suspendisse congue nibh ipsum, id rhoncus lectus congue vel.\nDonec eget sagittis ipsum. Donec condimentum sed metus placerat varius. Nunc ut est vel purus consectetur varius. In luctus, libero et accumsan sagittis, diam lacus faucibus arcu, eu mattis sapien nunc quis enim. Maecenas a laoreet leo, vitae iaculis risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec feugiat orci id enim commodo egestas. Nulla vulputate quis sem id feugiat. Maecenas vel augue tempus, lacinia enim quis, vehicula enim.\nDonec in leo at erat aliquet sagittis. Donec auctor turpis vel volutpat luctus. Donec non leo ut felis pulvinar laoreet. Cras in sapien suscipit, semper ipsum a, aliquet justo. Nam viverra porttitor nisi, a porta magna auctor vel. Nullam quis turpis non ex feugiat blandit vel a ligula. Maecenas at erat est. Donec placerat urna eget augue laoreet, nec molestie nisi condimentum. Ut ultricies iaculis dolor, ut posuere felis laoreet sit amet.\n",
-      "content_html": "\u003cp\u003eSuspendisse et viverra erat. Suspendisse congue pretium enim non feugiat. Maecenas vitae risus quis arcu consectetur iaculis a sollicitudin lacus. Aenean hendrerit dolor in congue ullamcorper. Fusce turpis ipsum, hendrerit ac purus lobortis, consequat hendrerit felis. Nulla id pretium eros. Ut vitae diam ex. Sed finibus volutpat elit, eget commodo nunc fringilla id. Aliquam eu congue enim, in egestas nisi. Suspendisse congue nibh ipsum, id rhoncus lectus congue vel.\u003c/p\u003e\n\u003cp\u003eDonec eget sagittis ipsum. Donec condimentum sed metus placerat varius. Nunc ut est vel purus consectetur varius. In luctus, libero et accumsan sagittis, diam lacus faucibus arcu, eu mattis sapien nunc quis enim. Maecenas a laoreet leo, vitae iaculis risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec feugiat orci id enim commodo egestas. Nulla vulputate quis sem id feugiat. Maecenas vel augue tempus, lacinia enim quis, vehicula enim.\u003c/p\u003e\n\u003cp\u003eDonec in leo at erat aliquet sagittis. Donec auctor turpis vel volutpat luctus. Donec non leo ut felis pulvinar laoreet. Cras in sapien suscipit, semper ipsum a, aliquet justo. Nam viverra porttitor nisi, a porta magna auctor vel. Nullam quis turpis non ex feugiat blandit vel a ligula. Maecenas at erat est. Donec placerat urna eget augue laoreet, nec molestie nisi condimentum. Ut ultricies iaculis dolor, ut posuere felis laoreet sit amet.\u003c/p\u003e\n",
+      "id": "7b502c3a1f48c8609ae212cdfb639dee39673f5e",
+      "title": "Hello world",
+      "summary": "My introduction to the blog",
+      "content_text": "Hello world! 👋 Hey there! Welcome to my very first blog post. I\u0026rsquo;m excited to start sharing my journey, thoughts, and experiences with you. Whether you\u0026rsquo;re here for tech tips, project updates, or just curious about what I’m up to, I hope you\u0026rsquo;ll find something interesting and useful.\nStay tuned for more to come, and thanks for stopping by!\n",
+      "content_html": "\u003ch2 id=\"hello-world-\"\u003eHello world! 👋\u003c/h2\u003e\n\u003cp\u003eHey there! Welcome to my very first blog post. I\u0026rsquo;m excited to start sharing my journey, thoughts, and experiences with you. Whether you\u0026rsquo;re here for tech tips, project updates, or just curious about what I’m up to, I hope you\u0026rsquo;ll find something interesting and useful.\u003c/p\u003e\n\u003cp\u003eStay tuned for more to come, and thanks for stopping by!\u003c/p\u003e\n",
       "url": "http://localhost:1313/posts/post-1/",
-      "date_published": "5036-05-09T30:55:00+00:00",
-      "date_modified": "5036-05-09T30:55:00+00:00",
+      "date_published": "27106-27-09T100:2727:00+00:00",
+      "date_modified": "27106-27-09T100:2727:00+00:00",
       "author": {
         "name": "Calvin Tran",
         "url": "http://localhost:1313/"
