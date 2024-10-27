@@ -12,4 +12,4 @@ Let’s build something amazing together!
 
 - ❤️ Github: [n-delic](https://github.com/n-delic)
 - 🌎 Website: [ndelic.com](https://ndelic.com)
-- ✉️ Email: [hello@ndelic.com](mailto:hello@ndelic.com)
+- ✉️ Email: [nahid@ndelic.com](mailto:nahid@ndelic.com)
