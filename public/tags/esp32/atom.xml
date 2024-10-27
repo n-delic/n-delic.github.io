@@ -10,10 +10,10 @@
     <atom:link href="http://localhost:1313/tags/esp32/atom.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FM Transmitter</title>
-      <link>http://localhost:1313/projects/project-1/</link>
+      <link>http://localhost:1313/projects/fm-transmitter/</link>
       <pubDate>Sun, 27 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/project-1/</guid>
-      <description></description>
+      <guid>http://localhost:1313/projects/fm-transmitter/</guid>
+      <description>&lt;h4 id=&#34;github-link&#34;&gt;Github link&lt;/h4&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/n-delic/ESP32-FM-Transmitter&#34;&gt;https://github.com/n-delic/ESP32-FM-Transmitter&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;After my aftermarket Android car radio failed, I decided to simplify things and reinstalled the original VW RCD 310 radio in my car. To stream music, I relied on an FM transmitter. However, as someone who enjoys discovering new music through random playlists, I found the lack of song titles displayed on the radio frustrating. My current FM transmitter doesn’t support showing track information. After learning that the Radio Data System (RDS) feature is available on FM radio, I decided to take matters into my own hands and build a custom ESP32-based FM transmitter that could transmit both audio and song details.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

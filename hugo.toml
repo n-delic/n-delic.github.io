@@ -19,16 +19,11 @@ theme = 'maverick'
 
 [menu]
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = "-110"
-  [[menu.main]]
     identifier = "posts"
-    name = "Post"
+    name = "Posts"
     url = "/posts/"
     weight = -200
-[[menu.main]]
+  [[menu.main]]
    identifier = "projects"
    name = "Projects"
    url = "/projects/"
