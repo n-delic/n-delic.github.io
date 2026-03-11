@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nahid delić | dev & video</title>
+  <meta name="description" content="Nahid Delić — Go Developer & Videographer from Gračanica. Building robust backend systems and crafting cinematic visual stories.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="nahid delić | code & frames">
+    <meta property="og:description" content="Go Developer & Videographer. Bridging the gap between technical precision and raw emotion.">
+    <meta property="og:image" content="https://ndelic.com/nahid.jpg"> <meta property="og:url" content="https://ndelic.com">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            orange: { 500: '#f97316' }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    /* Oštri scrollbar za cinematic osjećaj */
+    body::-webkit-scrollbar { width: 8px; }
+    body::-webkit-scrollbar-track { background: #000; }
+    body::-webkit-scrollbar-thumb { background: #27272a; border-radius: 4px; }
+    
+    .noise-bg {
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='7.51' numOctaves='1' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    }
+
+    /* Ključ za upijanje: višeslojna maska koja topi rubove u crno */
+    .image-melt-mask {
+      -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 30%, rgba(0,0,0,0) 65%);
+      mask-image: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 30%, rgba(0,0,0,0) 65%);
+    }
+  </style>
+</head>
+<body class="bg-black text-zinc-300 font-sans antialiased selection:bg-orange-500 selection:text-white relative min-h-screen">
+
+  <div class="fixed inset-0 overflow-hidden pointer-events-none z-0 select-none">
+    <div class="absolute -top-[20%] -right-[10%] w-[80vw] h-[80vw] md:w-[60vw] md:h-[60vw] bg-[radial-gradient(circle,rgba(249,115,22,0.05)_0%,transparent_70%)] blur-[120px] rounded-full"></div>
+    <div class="absolute -bottom-[20%] -left-[10%] w-[80vw] h-[80vw] md:w-[60vw] md:h-[60vw] bg-[radial-gradient(circle,rgba(39,39,42,0.3)_0%,transparent_70%)] blur-[120px] rounded-full"></div>
+    <div class="absolute inset-0 opacity-[0.12] mix-blend-overlay noise-bg transform-gpu"></div>
+  </div>
+
+  <div class="relative z-10 max-w-4xl mx-auto px-6 py-12 md:py-24 flex flex-col min-h-[90vh]">
+    
+    <nav class="flex justify-between items-center mb-24 md:mb-32">
+      <a href="/" class="text-white font-bold text-xl tracking-tighter lowercase hover:text-orange-500 transition-colors">nahid.</a>
+      <a href="https://kreativastudio.ba" target="_blank" class="text-sm lowercase tracking-wide text-zinc-500 hover:text-orange-500 transition-colors">
+        kreativa studio ↗
+      </a>
+    </nav>
+
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center mb-24 md:mb-32 relative">
+      <div class="md:col-span-8 order-2 md:order-1 relative z-10">
+        <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 tracking-tight lowercase">
+          code & frames.
+        </h1>
+        <div class="space-y-6 text-lg font-light leading-relaxed">
+          <p>
+            I'm <span class="text-white font-medium">Nahid Delić</span>. I build robust backend systems and craft cinematic visual stories. 
+          </p>
+          <p>
+            By day, I'm writing Go and designing SQL databases. The rest of the time, I'm directing, shooting, and color grading footage for <a href="https://kreativastudio.ba" class="text-orange-500 hover:text-orange-400 underline underline-offset-4 decoration-orange-500/30 transition-colors">my production studio</a>.
+          </p>
+        </div>
+        
+        <div class="flex gap-6 mt-10 text-sm font-mono tracking-widest uppercase">
+          <a href="https://github.com/n-delic" target="_blank" class="hover:text-white transition-colors flex items-center gap-2">
+            <span class="w-1 h-1 rounded-full bg-orange-500"></span> github
+          </a>
+          <a href="mailto:nahid@ndelic.com" class="hover:text-white transition-colors flex items-center gap-2">
+            <span class="w-1 h-1 rounded-full bg-orange-500"></span> email
+          </a>
+        </div>
+      </div>
+      
+      <div class="md:col-span-4 order-1 md:order-2 relative group flex justify-center md:justify-end">
+        <div class="absolute inset-0 bg-[radial-gradient(circle,rgba(0,0,0,0.8)_0%,transparent_60%)] z-[-1]"></div>
+        <div class="image-melt-mask overflow-hidden aspect-square border-none group-hover:scale-105 transition-transform duration-700 w-3/4 md:w-full">
+          <img src="nahid.jpg" alt="Nahid Delić" class="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700">
+        </div>
+      </div>
+    </div>
+
+    <section class="mb-auto">
+      <h2 class="text-white font-bold text-2xl mb-8 lowercase tracking-tight">the stack</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 border-t border-zinc-900 pt-8">
+        
+        <div>
+          <h3 class="text-zinc-500 font-mono text-sm uppercase tracking-widest mb-4">Code</h3>
+          <ul class="space-y-3 font-light text-zinc-400">
+            <li><span class="text-white">Backend:</span> Go, PHP, SQL</li>
+            <li><span class="text-white">Frontend:</span> Astro, TailwindCSS, JS</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-zinc-500 font-mono text-sm uppercase tracking-widest mb-4">Frames</h3>
+          <ul class="space-y-3 font-light text-zinc-400">
+            <li><span class="text-white">Editing:</span> DaVinci Resolve Studio</li>
+            <li><span class="text-white">Motion & VFX:</span> Adobe After Effects</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <footer class="mt-24 pt-8 border-t border-zinc-900 flex justify-between items-center text-xs font-mono text-zinc-600 uppercase tracking-widest">
+      <span>© 2026 NAHID DELIĆ</span>
+    </footer>
+
+  </div>
+</body>
+</html>
