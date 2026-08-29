@@ -52,9 +52,14 @@
     
     <nav class="flex justify-between items-center mb-24 md:mb-32">
       <a href="/" class="text-white font-bold text-xl tracking-tighter lowercase hover:text-orange-500 transition-colors">nahid.</a>
-      <a href="https://kreativastudio.ba" target="_blank" class="text-sm lowercase tracking-wide text-zinc-500 hover:text-orange-500 transition-colors">
-        kreativa studio ↗
-      </a>
+      <div class="flex items-center gap-6 text-sm lowercase tracking-wide">
+        <a href="/sevdah/" class="text-zinc-400 hover:text-orange-500 transition-colors font-medium">
+          sevdah 🎵
+        </a>
+        <a href="https://kreativastudio.ba" target="_blank" class="text-zinc-500 hover:text-orange-500 transition-colors">
+          kreativa studio ↗
+        </a>
+      </div>
     </nav>
 
     <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center mb-24 md:mb-32 relative">
@@ -88,6 +93,26 @@
         </div>
       </div>
     </div>
+
+    <section class="mb-16">
+      <h2 class="text-white font-bold text-2xl mb-6 lowercase tracking-tight">featured project</h2>
+      <a href="/sevdah/" class="block group p-6 rounded-xl border border-zinc-900 bg-zinc-950/40 hover:border-orange-500/40 hover:bg-zinc-950/80 transition-all">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+          <div class="flex items-center gap-3">
+            <span class="text-xl">🎵</span>
+            <h3 class="text-white font-semibold text-xl group-hover:text-orange-500 transition-colors lowercase">sevdah</h3>
+          </div>
+          <span class="text-xs font-mono text-orange-400 bg-orange-500/10 border border-orange-500/20 px-2.5 py-1 rounded-full uppercase tracking-wider self-start sm:self-auto">Wails · Go · Vue 3</span>
+        </div>
+        <p class="text-sm text-zinc-400 font-light leading-relaxed mb-3">
+          A studio-grade desktop audio player and streaming studio for Google Drive & local storage. Features gapless playback, 10-band EQ, ambient UI, and cloud playlists.
+        </p>
+        <div class="text-xs font-mono text-orange-500 group-hover:translate-x-1 transition-transform flex items-center gap-1">
+          <span>view project</span>
+          <span>→</span>
+        </div>
+      </a>
+    </section>
 
     <section class="mb-auto">
       <h2 class="text-white font-bold text-2xl mb-8 lowercase tracking-tight">the stack</h2>
