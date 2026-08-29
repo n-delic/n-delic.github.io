@@ -10,14 +10,14 @@
   <meta property="og:title" content="terms of service | sevdah">
   <meta property="og:description" content="Terms of Service and usage agreement for Sevdah audio player.">
   <meta property="og:url" content="https://ndelic.com/sevdah/terms.html">
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" href="logo.png">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: {
-            orange: { 500: '#f97316', 400: '#fb923c' }
+            sevdah: '#00E676'
           }
         }
       }
@@ -33,11 +33,11 @@
     }
   </style>
 </head>
-<body class="bg-black text-zinc-300 font-sans antialiased selection:bg-orange-500 selection:text-white relative min-h-screen">
+<body class="bg-black text-zinc-300 font-sans antialiased selection:bg-[#00E676] selection:text-black relative min-h-screen">
 
   <!-- Ambient light glow & noise background -->
   <div class="fixed inset-0 overflow-hidden pointer-events-none z-0 select-none">
-    <div class="absolute -top-[20%] -right-[10%] w-[80vw] h-[80vw] md:w-[60vw] md:h-[60vw] bg-[radial-gradient(circle,rgba(249,115,22,0.06)_0%,transparent_70%)] blur-[120px] rounded-full"></div>
+    <div class="absolute -top-[20%] -right-[10%] w-[80vw] h-[80vw] md:w-[60vw] md:h-[60vw] bg-[radial-gradient(circle,rgba(0,230,118,0.10)_0%,transparent_70%)] blur-[120px] rounded-full"></div>
     <div class="absolute -bottom-[20%] -left-[10%] w-[80vw] h-[80vw] md:w-[60vw] md:h-[60vw] bg-[radial-gradient(circle,rgba(39,39,42,0.3)_0%,transparent_70%)] blur-[120px] rounded-full"></div>
     <div class="absolute inset-0 opacity-[0.12] mix-blend-overlay noise-bg transform-gpu"></div>
   </div>
@@ -49,13 +49,16 @@
       <div class="flex items-center gap-2 text-sm font-mono tracking-tight">
         <a href="/" class="text-zinc-500 hover:text-white transition-colors">nahid.</a>
         <span class="text-zinc-700">/</span>
-        <a href="/sevdah/" class="text-zinc-400 hover:text-white transition-colors lowercase">sevdah</a>
+        <a href="/sevdah/" class="text-zinc-400 hover:text-white transition-colors lowercase flex items-center gap-1.5">
+          <img src="logo.png" alt="Sevdah" class="w-3.5 h-3.5 rounded-sm object-contain">
+          <span>sevdah</span>
+        </a>
         <span class="text-zinc-700">/</span>
-        <span class="text-orange-500 lowercase">terms</span>
+        <span class="text-[#00E676] lowercase">terms</span>
       </div>
       <div class="flex items-center gap-6 text-sm font-mono tracking-wide">
         <a href="/sevdah/" class="text-zinc-500 hover:text-white transition-colors">overview</a>
-        <a href="/sevdah/privacy.html" class="text-zinc-500 hover:text-orange-500 transition-colors">privacy</a>
+        <a href="/sevdah/privacy.html" class="text-zinc-500 hover:text-[#00E676] transition-colors">privacy</a>
       </div>
     </nav>
 
@@ -65,7 +68,7 @@
         <span>Legal Documentation</span>
       </div>
       <h1 class="text-4xl md:text-5xl font-bold text-white mb-4 tracking-tight lowercase">
-        terms of service<span class="text-orange-500">.</span>
+        terms of service<span class="text-[#00E676]">.</span>
       </h1>
       <p class="text-xs font-mono text-zinc-500 uppercase tracking-widest">
         Last Updated: August 29, 2026
@@ -81,7 +84,7 @@
       <!-- Section 1 -->
       <section class="space-y-4">
         <h2 class="text-xl md:text-2xl font-bold text-white tracking-tight lowercase flex items-center gap-3">
-          <span class="text-orange-500 font-mono text-base">01.</span> open source license
+          <span class="text-[#00E676] font-mono text-base">01.</span> open source license
         </h2>
         <div class="p-5 rounded-xl border border-zinc-900 bg-zinc-950/60 text-sm md:text-base">
           <p>
@@ -93,7 +96,7 @@
       <!-- Section 2 -->
       <section class="space-y-4">
         <h2 class="text-xl md:text-2xl font-bold text-white tracking-tight lowercase flex items-center gap-3">
-          <span class="text-orange-500 font-mono text-base">02.</span> description of service
+          <span class="text-[#00E676] font-mono text-base">02.</span> description of service
         </h2>
         <p class="text-sm md:text-base">
           Sevdah is a standalone desktop music playback application that interfaces with your personal Google Drive account to index metadata and stream audio files directly to your device.
@@ -108,7 +111,7 @@
       <!-- Section 3 -->
       <section class="space-y-4">
         <h2 class="text-xl md:text-2xl font-bold text-white tracking-tight lowercase flex items-center gap-3">
-          <span class="text-orange-500 font-mono text-base">03.</span> user responsibilities & compliance
+          <span class="text-[#00E676] font-mono text-base">03.</span> user responsibilities & compliance
         </h2>
         <p class="text-sm md:text-base">
           By using Sevdah, you acknowledge and agree that:
@@ -117,7 +120,7 @@
           <div class="p-4 rounded-lg border border-zinc-900 bg-zinc-950/40">
             <h3 class="text-white font-medium mb-2">1. Lawful Content</h3>
             <p class="text-xs text-zinc-400 font-light leading-relaxed">
-              You have the legal right, ownership, or necessary licenses and permissions to access, store, and stream the audio files stored in your Google Drive and local drives.
+              You have the legal right, ownership, or necessary licenses and permissions to access, store, and stream the audio files stored in your Google Drive and local disks.
             </p>
           </div>
           <div class="p-4 rounded-lg border border-zinc-900 bg-zinc-950/40">
@@ -138,16 +141,16 @@
       <!-- Section 4 -->
       <section class="space-y-4">
         <h2 class="text-xl md:text-2xl font-bold text-white tracking-tight lowercase flex items-center gap-3">
-          <span class="text-orange-500 font-mono text-base">04.</span> google drive api & third-party terms
+          <span class="text-[#00E676] font-mono text-base">04.</span> google drive api & third-party terms
         </h2>
         <div class="p-5 rounded-xl border border-zinc-900 bg-zinc-950/60 text-sm md:text-base space-y-3">
           <p>
             Sevdah relies on the Google Drive API to function. Your use of Google Drive is governed by 
-            <a href="https://policies.google.com/terms" target="_blank" class="text-orange-400 underline underline-offset-4 hover:text-orange-300 transition-colors">
+            <a href="https://policies.google.com/terms" target="_blank" class="text-[#00E676] underline underline-offset-4 hover:text-[#69f0ae] transition-colors">
               Google's Terms of Service
             </a> 
             and 
-            <a href="https://policies.google.com/privacy" target="_blank" class="text-orange-400 underline underline-offset-4 hover:text-orange-300 transition-colors">
+            <a href="https://policies.google.com/privacy" target="_blank" class="text-[#00E676] underline underline-offset-4 hover:text-[#69f0ae] transition-colors">
               Google Privacy Policy
             </a>.
           </p>
@@ -160,14 +163,14 @@
       <!-- Section 5 & 6 (Legal Disclaimers) -->
       <section class="space-y-6">
         <div class="p-5 rounded-xl border border-zinc-800 bg-zinc-950/80 space-y-3">
-          <h2 class="text-sm font-mono uppercase tracking-widest text-orange-400">05. Disclaimer of Warranties</h2>
+          <h2 class="text-sm font-mono uppercase tracking-widest text-[#00E676]">05. Disclaimer of Warranties</h2>
           <p class="text-xs font-mono text-zinc-400 leading-relaxed uppercase">
             THE APPLICATION IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE APPLICATION OR THE USE OR OTHER DEALINGS IN THE APPLICATION.
           </p>
         </div>
 
         <div class="p-5 rounded-xl border border-zinc-800 bg-zinc-950/80 space-y-3">
-          <h2 class="text-sm font-mono uppercase tracking-widest text-orange-400">06. Limitation of Liability</h2>
+          <h2 class="text-sm font-mono uppercase tracking-widest text-[#00E676]">06. Limitation of Liability</h2>
           <p class="text-xs font-mono text-zinc-400 leading-relaxed uppercase mb-2">
             TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE AUTHORS, CONTRIBUTORS, OR COPYRIGHT HOLDERS OF SEVDAH BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING WITHOUT LIMITATION:
           </p>
@@ -183,7 +186,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
         <section class="space-y-3 p-5 rounded-xl border border-zinc-900 bg-zinc-950/40">
           <h2 class="text-base font-bold text-white tracking-tight lowercase flex items-center gap-2">
-            <span class="text-orange-500 font-mono text-xs">07.</span> modifications to terms
+            <span class="text-[#00E676] font-mono text-xs">07.</span> modifications to terms
           </h2>
           <p class="text-xs text-zinc-400 font-light leading-relaxed">
             We reserve the right to modify or replace these Terms at any time. Changes will be posted directly within the repository and this page. Your continued use of the Application constitutes acceptance of those changes.
@@ -192,7 +195,7 @@
 
         <section class="space-y-3 p-5 rounded-xl border border-zinc-900 bg-zinc-950/40">
           <h2 class="text-base font-bold text-white tracking-tight lowercase flex items-center gap-2">
-            <span class="text-orange-500 font-mono text-xs">08.</span> governing law & contact
+            <span class="text-[#00E676] font-mono text-xs">08.</span> governing law & contact
           </h2>
           <p class="text-xs text-zinc-400 font-light leading-relaxed">
             These Terms shall be governed by and construed in accordance with applicable laws without regard to conflict of law principles. If you have any questions, please open an issue in the official GitHub repository.

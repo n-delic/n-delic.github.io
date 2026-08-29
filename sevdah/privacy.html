@@ -10,14 +10,19 @@
   <meta property="og:title" content="privacy policy | sevdah">
   <meta property="og:description" content="Privacy Policy and Google API Limited Use disclosure for Sevdah audio player.">
   <meta property="og:url" content="https://ndelic.com/sevdah/privacy.html">
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" href="logo.png">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: {
-            orange: { 500: '#f97316', 400: '#fb923c' }
+            sevdah: {
+              DEFAULT: '#00E676',
+              500: '#00E676',
+              400: '#69f0ae',
+              600: '#00c853'
+            }
           }
         }
       }
@@ -33,11 +38,11 @@
     }
   </style>
 </head>
-<body class="bg-black text-zinc-300 font-sans antialiased selection:bg-orange-500 selection:text-white relative min-h-screen">
+<body class="bg-black text-zinc-300 font-sans antialiased selection:bg-[#00E676] selection:text-black relative min-h-screen">
 
   <!-- Ambient light glow & noise background -->
   <div class="fixed inset-0 overflow-hidden pointer-events-none z-0 select-none">
-    <div class="absolute -top-[20%] -right-[10%] w-[80vw] h-[80vw] md:w-[60vw] md:h-[60vw] bg-[radial-gradient(circle,rgba(249,115,22,0.06)_0%,transparent_70%)] blur-[120px] rounded-full"></div>
+    <div class="absolute -top-[20%] -right-[10%] w-[80vw] h-[80vw] md:w-[60vw] md:h-[60vw] bg-[radial-gradient(circle,rgba(0,230,118,0.10)_0%,transparent_70%)] blur-[120px] rounded-full"></div>
     <div class="absolute -bottom-[20%] -left-[10%] w-[80vw] h-[80vw] md:w-[60vw] md:h-[60vw] bg-[radial-gradient(circle,rgba(39,39,42,0.3)_0%,transparent_70%)] blur-[120px] rounded-full"></div>
     <div class="absolute inset-0 opacity-[0.12] mix-blend-overlay noise-bg transform-gpu"></div>
   </div>
@@ -49,13 +54,16 @@
       <div class="flex items-center gap-2 text-sm font-mono tracking-tight">
         <a href="/" class="text-zinc-500 hover:text-white transition-colors">nahid.</a>
         <span class="text-zinc-700">/</span>
-        <a href="/sevdah/" class="text-zinc-400 hover:text-white transition-colors lowercase">sevdah</a>
+        <a href="/sevdah/" class="text-zinc-400 hover:text-white transition-colors lowercase flex items-center gap-1.5">
+          <img src="logo.png" alt="Sevdah" class="w-3.5 h-3.5 rounded-sm object-contain">
+          <span>sevdah</span>
+        </a>
         <span class="text-zinc-700">/</span>
-        <span class="text-orange-500 lowercase">privacy</span>
+        <span class="text-[#00E676] lowercase">privacy</span>
       </div>
       <div class="flex items-center gap-6 text-sm font-mono tracking-wide">
         <a href="/sevdah/" class="text-zinc-500 hover:text-white transition-colors">overview</a>
-        <a href="/sevdah/terms.html" class="text-zinc-500 hover:text-orange-500 transition-colors">terms</a>
+        <a href="/sevdah/terms.html" class="text-zinc-500 hover:text-[#00E676] transition-colors">terms</a>
       </div>
     </nav>
 
@@ -65,7 +73,7 @@
         <span>Legal Documentation</span>
       </div>
       <h1 class="text-4xl md:text-5xl font-bold text-white mb-4 tracking-tight lowercase">
-        privacy policy<span class="text-orange-500">.</span>
+        privacy policy<span class="text-[#00E676]">.</span>
       </h1>
       <p class="text-xs font-mono text-zinc-500 uppercase tracking-widest">
         Last Updated: August 29, 2026
@@ -81,11 +89,11 @@
       <!-- Section 1 -->
       <section class="space-y-4">
         <h2 class="text-xl md:text-2xl font-bold text-white tracking-tight lowercase flex items-center gap-3">
-          <span class="text-orange-500 font-mono text-base">01.</span> zero personal data collection & zero telemetry
+          <span class="text-[#00E676] font-mono text-base">01.</span> zero personal data collection & zero telemetry
         </h2>
         <ul class="space-y-3 pl-4 border-l border-zinc-800 text-sm md:text-base">
           <li>
-            <strong class="text-white font-medium">No Analytics / Telemetry:</strong> Sevdah does <span class="text-orange-400 font-medium">NOT</span> collect, transmit, track, or share any analytics, crash logs, IP addresses, telemetry, or personal usage statistics.
+            <strong class="text-white font-medium">No Analytics / Telemetry:</strong> Sevdah does <span class="text-[#00E676] font-medium">NOT</span> collect, transmit, track, or share any analytics, crash logs, IP addresses, telemetry, or personal usage statistics.
           </li>
           <li>
             <strong class="text-white font-medium">No Third-Party Tracking:</strong> There are no tracking pixels, advertising SDKs, cookies, or remote user tracking mechanisms embedded in the software.
@@ -99,7 +107,7 @@
       <!-- Section 2 -->
       <section class="space-y-4">
         <h2 class="text-xl md:text-2xl font-bold text-white tracking-tight lowercase flex items-center gap-3">
-          <span class="text-orange-500 font-mono text-base">02.</span> google oauth 2.0 & google drive api usage
+          <span class="text-[#00E676] font-mono text-base">02.</span> google oauth 2.0 & google drive api usage
         </h2>
         <p class="text-sm md:text-base">
           Sevdah connects to Google Drive via official OAuth 2.0 authentication solely to stream and organize your personal music files:
@@ -109,26 +117,26 @@
           <div class="p-5 rounded-xl border border-zinc-900 bg-zinc-950/60">
             <h3 class="text-white font-medium text-sm md:text-base mb-2">Data Accessed</h3>
             <ul class="space-y-2 text-sm text-zinc-400">
-              <li>• <span class="text-zinc-200 font-medium">Audio Files & Metadata:</span> The application reads audio files (<code class="text-xs font-mono text-orange-400 bg-zinc-900 px-1 py-0.5 rounded">.mp3</code>, <code class="text-xs font-mono text-orange-400 bg-zinc-900 px-1 py-0.5 rounded">.flac</code>, <code class="text-xs font-mono text-orange-400 bg-zinc-900 px-1 py-0.5 rounded">.wav</code>, <code class="text-xs font-mono text-orange-400 bg-zinc-900 px-1 py-0.5 rounded">.ogg</code>, <code class="text-xs font-mono text-orange-400 bg-zinc-900 px-1 py-0.5 rounded">.m4a</code>, <code class="text-xs font-mono text-orange-400 bg-zinc-900 px-1 py-0.5 rounded">.aac</code>, <code class="text-xs font-mono text-orange-400 bg-zinc-900 px-1 py-0.5 rounded">.opus</code>) within the Google Drive folders you designate.</li>
-              <li>• <span class="text-zinc-200 font-medium">Playlist Sync:</span> To support cross-device playlist syncing, the application reads and writes a <code class="text-xs font-mono text-orange-400 bg-zinc-900 px-1 py-0.5 rounded">playlists.json</code> file exclusively in your designated root music folder on Google Drive.</li>
+              <li>• <span class="text-zinc-200 font-medium">Audio Files & Metadata:</span> The application reads audio files (<code class="text-xs font-mono text-[#00E676] bg-zinc-900 px-1 py-0.5 rounded">.mp3</code>, <code class="text-xs font-mono text-[#00E676] bg-zinc-900 px-1 py-0.5 rounded">.flac</code>, <code class="text-xs font-mono text-[#00E676] bg-zinc-900 px-1 py-0.5 rounded">.wav</code>, <code class="text-xs font-mono text-[#00E676] bg-zinc-900 px-1 py-0.5 rounded">.ogg</code>, <code class="text-xs font-mono text-[#00E676] bg-zinc-900 px-1 py-0.5 rounded">.m4a</code>, <code class="text-xs font-mono text-[#00E676] bg-zinc-900 px-1 py-0.5 rounded">.aac</code>, <code class="text-xs font-mono text-[#00E676] bg-zinc-900 px-1 py-0.5 rounded">.opus</code>) within the Google Drive folders you designate.</li>
+              <li>• <span class="text-zinc-200 font-medium">Playlist Sync:</span> To support cross-device playlist syncing, the application reads and writes a <code class="text-xs font-mono text-[#00E676] bg-zinc-900 px-1 py-0.5 rounded">playlists.json</code> file exclusively in your designated root music folder on Google Drive.</li>
             </ul>
           </div>
 
           <div class="p-5 rounded-xl border border-zinc-900 bg-zinc-950/60">
             <h3 class="text-white font-medium text-sm md:text-base mb-2">Storage & Security of Tokens</h3>
             <ul class="space-y-2 text-sm text-zinc-400">
-              <li>• <span class="text-zinc-200 font-medium">Local Storage Only:</span> Your OAuth access and refresh tokens are stored exclusively inside your local SQLite database (<code class="text-xs font-mono text-orange-400 bg-zinc-900 px-1 py-0.5 rounded">~/.config/sevdah/music.db</code>) on your operating system.</li>
+              <li>• <span class="text-zinc-200 font-medium">Local Storage Only:</span> Your OAuth access and refresh tokens are stored exclusively inside your local SQLite database (<code class="text-xs font-mono text-[#00E676] bg-zinc-900 px-1 py-0.5 rounded">~/.config/sevdah/music.db</code>) on your operating system.</li>
               <li>• <span class="text-zinc-200 font-medium">No External Token Transmission:</span> Your OAuth tokens are never transmitted to any third-party server, service, or intermediary.</li>
               <li>• <span class="text-zinc-200 font-medium">Direct Google Communication:</span> All API calls are made directly between your local desktop application and <code class="text-xs font-mono text-zinc-300 bg-zinc-900 px-1 py-0.5 rounded">https://www.googleapis.com/</code>.</li>
             </ul>
           </div>
 
           <!-- Google Limited Use Compliance Notice -->
-          <div class="p-5 rounded-xl border border-orange-500/30 bg-orange-950/10 text-sm">
-            <h3 class="text-orange-400 font-semibold mb-2">Google API Services User Data Policy Compliance</h3>
+          <div class="p-5 rounded-xl border border-[#00E676]/30 bg-[#00E676]/5 text-sm">
+            <h3 class="text-[#00E676] font-semibold mb-2">Google API Services User Data Policy Compliance</h3>
             <p class="text-zinc-300">
               Sevdah's use and transfer of information received from Google APIs adhere to the 
-              <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" class="text-orange-400 underline underline-offset-4 hover:text-orange-300 transition-colors">
+              <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" class="text-[#00E676] underline underline-offset-4 hover:text-[#69f0ae] transition-colors">
                 Google API Services User Data Policy
               </a>, including the <strong>Limited Use</strong> requirements.
             </p>
@@ -139,7 +147,7 @@
       <!-- Section 3 -->
       <section class="space-y-4">
         <h2 class="text-xl md:text-2xl font-bold text-white tracking-tight lowercase flex items-center gap-3">
-          <span class="text-orange-500 font-mono text-base">03.</span> local data storage & caching
+          <span class="text-[#00E676] font-mono text-base">03.</span> local data storage & caching
         </h2>
         <p class="text-sm md:text-base">
           To provide fast performance and offline metadata browsing, Sevdah stores the following files locally on your machine:
@@ -147,7 +155,7 @@
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2 text-sm">
           <div class="p-4 rounded-lg border border-zinc-900 bg-zinc-950/40">
-            <div class="text-xs font-mono text-orange-400 mb-1">~/.config/sevdah/music.db</div>
+            <div class="text-xs font-mono text-[#00E676] mb-1">~/.config/sevdah/music.db</div>
             <h4 class="text-white font-medium mb-2">SQLite Database</h4>
             <p class="text-xs text-zinc-400 font-light leading-relaxed">
               Cached track metadata (tags, lyrics, sample rate, format), user favorites (starred tracks & albums), custom playlists, and local settings.
@@ -155,7 +163,7 @@
           </div>
 
           <div class="p-4 rounded-lg border border-zinc-900 bg-zinc-950/40">
-            <div class="text-xs font-mono text-orange-400 mb-1">~/.config/sevdah/covers/</div>
+            <div class="text-xs font-mono text-[#00E676] mb-1">~/.config/sevdah/covers/</div>
             <h4 class="text-white font-medium mb-2">Album Cover Art Cache</h4>
             <p class="text-xs text-zinc-400 font-light leading-relaxed">
               Binary cover artwork extracted directly from the headers of your audio files.
@@ -163,7 +171,7 @@
           </div>
 
           <div class="p-4 rounded-lg border border-zinc-900 bg-zinc-950/40">
-            <div class="text-xs font-mono text-orange-400 mb-1">~/.config/sevdah/artists/</div>
+            <div class="text-xs font-mono text-[#00E676] mb-1">~/.config/sevdah/artists/</div>
             <h4 class="text-white font-medium mb-2">Artist Metadata Cache</h4>
             <p class="text-xs text-zinc-400 font-light leading-relaxed">
               Artist biographies and public photos fetched from public open metadata providers.
@@ -178,10 +186,10 @@
       <!-- Section 4 -->
       <section class="space-y-4">
         <h2 class="text-xl md:text-2xl font-bold text-white tracking-tight lowercase flex items-center gap-3">
-          <span class="text-orange-500 font-mono text-base">04.</span> local audio proxy server (:8990)
+          <span class="text-[#00E676] font-mono text-base">04.</span> local audio proxy server (:8990)
         </h2>
         <p class="text-sm md:text-base">
-          The application runs a lightweight HTTP server on <code class="text-xs font-mono text-orange-400 bg-zinc-900 px-1 py-0.5 rounded">localhost:8990</code> solely to stream raw audio bytes and serve cached cover art to the local frontend UI. This proxy:
+          The application runs a lightweight HTTP server on <code class="text-xs font-mono text-[#00E676] bg-zinc-900 px-1 py-0.5 rounded">localhost:8990</code> solely to stream raw audio bytes and serve cached cover art to the local frontend UI. This proxy:
         </p>
         <ul class="space-y-2 pl-4 border-l border-zinc-800 text-sm">
           <li>• Is bound only to your local loopback interface (<code class="text-xs font-mono text-zinc-300">localhost</code> / <code class="text-xs font-mono text-zinc-300">127.0.0.1</code>).</li>
@@ -193,7 +201,7 @@
       <!-- Section 5 -->
       <section class="space-y-4">
         <h2 class="text-xl md:text-2xl font-bold text-white tracking-tight lowercase flex items-center gap-3">
-          <span class="text-orange-500 font-mono text-base">05.</span> third-party services & apis
+          <span class="text-[#00E676] font-mono text-base">05.</span> third-party services & apis
         </h2>
         <p class="text-sm md:text-base">
           For enhanced metadata and artist artwork, the application queries public web APIs:
@@ -209,17 +217,17 @@
       <!-- Section 6 -->
       <section class="space-y-4">
         <h2 class="text-xl md:text-2xl font-bold text-white tracking-tight lowercase flex items-center gap-3">
-          <span class="text-orange-500 font-mono text-base">06.</span> your rights & control over data
+          <span class="text-[#00E676] font-mono text-base">06.</span> your rights & control over data
         </h2>
         <ul class="space-y-3 pl-4 border-l border-zinc-800 text-sm md:text-base">
           <li>
             <strong class="text-white font-medium">Revoking Access:</strong> You can revoke Sevdah's access to your Google account at any time via 
-            <a href="https://myaccount.google.com/permissions" target="_blank" class="text-orange-400 hover:text-orange-300 underline underline-offset-4 transition-colors">
+            <a href="https://myaccount.google.com/permissions" target="_blank" class="text-[#00E676] hover:text-[#69f0ae] underline underline-offset-4 transition-colors">
               Google Account Permissions
             </a>.
           </li>
           <li>
-            <strong class="text-white font-medium">Data Deletion:</strong> You can delete all locally cached data at any time by removing the <code class="text-xs font-mono text-orange-400 bg-zinc-900 px-1 py-0.5 rounded">~/.config/sevdah</code> configuration folder from your system.
+            <strong class="text-white font-medium">Data Deletion:</strong> You can delete all locally cached data at any time by removing the <code class="text-xs font-mono text-[#00E676] bg-zinc-900 px-1 py-0.5 rounded">~/.config/sevdah</code> configuration folder from your system.
           </li>
         </ul>
       </section>
@@ -228,7 +236,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
         <section class="space-y-3 p-5 rounded-xl border border-zinc-900 bg-zinc-950/40">
           <h2 class="text-base font-bold text-white tracking-tight lowercase flex items-center gap-2">
-            <span class="text-orange-500 font-mono text-xs">07.</span> policy changes
+            <span class="text-[#00E676] font-mono text-xs">07.</span> policy changes
           </h2>
           <p class="text-xs text-zinc-400 font-light leading-relaxed">
             If we update this Privacy Policy, the revised version will be published on this page and in the official repository with an updated revision date.
@@ -237,7 +245,7 @@
 
         <section class="space-y-3 p-5 rounded-xl border border-zinc-900 bg-zinc-950/40">
           <h2 class="text-base font-bold text-white tracking-tight lowercase flex items-center gap-2">
-            <span class="text-orange-500 font-mono text-xs">08.</span> open source transparency
+            <span class="text-[#00E676] font-mono text-xs">08.</span> open source transparency
           </h2>
           <p class="text-xs text-zinc-400 font-light leading-relaxed">
             Sevdah is 100% open-source software. You are encouraged to inspect our complete source code on GitHub. For inquiries, please open an issue in the official repository.
